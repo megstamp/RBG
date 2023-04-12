@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+    background-image: url(../images/protest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    page-break-inside: avoid;
+}
+
+.container {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
